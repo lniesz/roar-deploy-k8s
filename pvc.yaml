@@ -5,7 +5,7 @@ metadata:
     app: mysql
   name: mysql-pv-claim
 spec:
-  storageClassName: manual
+  storageClassName: nfs
   accessModes:
   - ReadWriteOnce
   resources:

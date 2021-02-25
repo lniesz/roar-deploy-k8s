@@ -17,6 +17,7 @@ spec:
         name: roar-web
         app: roar-web
     spec:
+      serviceAccountName: roar
       containers:
       - name: roar-web
         image: quay.io/bclaster/roar-web:1.0.1

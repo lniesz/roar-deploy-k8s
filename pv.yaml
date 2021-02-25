@@ -5,10 +5,8 @@ metadata:
   labels:
     type: local
 spec:
-  storageClassName: manual
+  storageClassName: nfs
   capacity:
     storage: 100M
   accessModes:
     - ReadWriteOnce
-  hostPath:
-    path: "/mnt/data"
